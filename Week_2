@@ -1,0 +1,10 @@
+Grep command in Unix:
+-c: This prints only a count of the lines that match a pattern
+-h: Display the matched lines, but do not display the filenames.
+-l: Displays list of a filenames only.
+-n: Display the matched lines and their line numbers.
+-v: This prints out all the lines that do not matches the pattern
+-e : Specifies expression with this option. Can use multiple times.
+-o :Print only the matched parts of a matching line, with each such part on a
+separate output line.
+
