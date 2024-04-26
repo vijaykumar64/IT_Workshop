@@ -1,0 +1,117 @@
+//LINKS
+
+\documentclass{article}
+\usepackage{hyperref}
+\begin{document}
+	\href{www.google.com}{click}
+\end{document}
+
+
+
+//Equations
+
+\documentclass{article}
+\usepackage{amsmath}
+\begin{document}
+ \[ax^2+bx-c=1\]
+ 
+ \begin{equation}
+	ax^2+bx-c=1
+\end{equation}
+  ji bugi;nuw.;uiw iuhti;h4tiuhh  \begin{displaymath}
+  	\sqrt{y2^2-y1^2}
+  \end{displaymath}q4buiqlrlh2l3
+   \begin{displaymath}
+   	\sqrt{y2^2-y1^2}
+   \end{displaymath}
+\end{document}
+
+
+
+//subimages
+
+\documentclass{article}
+\usepackage{graphicx}
+\usepackage{subcaption}
+\begin{document}
+	\vspace{-15cm}
+	\begin{figure}
+	
+
+	\begin{subfigure} {0.6\textwidth}
+	
+	\centering
+	\includegraphics[width=0.8\textwidth]{img.jpg}
+	\caption{image1}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}{0.6\textwidth}
+    
+    \centering
+    \includegraphics[width=0.8\textwidth]{img1.jpg}
+    \caption{image1}
+    \end{subfigure}
+
+
+	\end{figure}
+\end{document}
+
+
+
+
+//figures
+
+\documentclass{article}
+\usepackage{graphicx}
+\begin{document}
+	\vspace{-15cm}
+	\begin{figure{h}}
+		\centering
+		\includegraphics[width=0.5\textwidth]{img.jpg}
+		\caption{image1}
+	\end{figure}
+\end{document}
+
+
+
+
+//tables
+
+\documentclass{article}
+\usepackage{graphicx}
+\usepackage[table]{xcolor}
+\begin{document}
+	\begin{figure}
+		\includegraphics[width=0.5\textwidth]{img.jpg}
+	\end{figure}
+	\begin{table}
+		\vspace{-15cm}
+		\centering
+	    
+	    \begin{tabular}{|c|c|c|}
+	    	\hline
+	         \LARGE column1&\LARGE column2&\LARGE column3\\
+	         \hline
+	         \large \cellcolor{orange}r1c1& \cellcolor{orange}r1c2 & \cellcolor{orange}r1c3\\ \hline
+	          \color{white}\cellcolor{blue}r2c1& \cellcolor{blue}r2c2& \cellcolor{blue}r2c3\\ \hline
+	          \cellcolor{green}r3c1& \cellcolor{green}r3c2& \cellcolor{green}r3c3\\
+	         \hline
+	    \end{tabular}
+       \caption{simple table}
+       
+       \vspace{2cm}
+        \centering
+           \begin{tabular}{|c|c|c|}
+        	
+       	\hline
+       	column1&column2&column3\\
+       	\hline
+       	r1c1&r1c2&r1c3\\ \hline
+       	r2c1&r2c2&r2c3\\ \hline
+       	r3c1&r3c2&r3c3\\
+       	\hline
+       \end{tabular}
+       \caption{simple table}
+       
+	\end{table}
+\end{document}
